@@ -161,7 +161,7 @@ public class HelloApplication extends Application {
          */
         // Listener is an interface, watches for changes in a node
         // Listener -- Changes -- Validations
-        tipPercentSlider.valueProperty().addListener((obs, oldVal, newVal) ->calculate());
+        tipPercentSlider.valueProperty().addListener((obs, oldVal, newVal) -> calculate());
 
         // HBox clearCalcBox = ; // Horizontal box of Node (BUTTONS ETC)
         //gridpane.add(new HBox(clearButton, calculateButton), 1, 4); //Horizontal box of Node (BUTTONS ETC)
